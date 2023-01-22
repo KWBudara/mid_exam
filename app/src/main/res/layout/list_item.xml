@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        app:srcCompat="@drawable/argentina" />
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="75dp"
+        android:layout_height="72dp"
+        android:backgroundTint="#B8B6B6"
+        android:text="Argentina"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checked_country"
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="" />
+
+</LinearLayout>
